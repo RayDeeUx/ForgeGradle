@@ -59,7 +59,7 @@ dependencies {
     implementation 'org.ow2.asm:asm-debug-all:5.0.3'
     implementation 'com.google.guava:guava:18.0'
 
-    implementation('club.chachy:GitVersion:394b3c5363') {
+    implementation('com.github.GitTools:GitVersion:5564596') {
         exclude module: 'org.eclipse.jgit'
     }
 
